@@ -15,7 +15,10 @@
     "jest": "^30.2.0",
     "pre-commit": "^1.2.2"
   },
-  "pre-commit": [
-    "test"
-  ]
+  "husky": {
+    "hooks": {
+    "pre-commit": "npm test"
+    }
+  }
+  
 }
